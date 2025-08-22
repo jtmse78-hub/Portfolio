@@ -196,7 +196,7 @@ I have a strong passion for sports, which fosters discipline and perseverance.</
 
                                     <p>
                                         <span class="profile-small-title">Phone</span> 
-                                         <span><a href="tel: 305-240-9671">+63-917-555-0238</a></span>
+                                         <span><a href="tel: 09175550238">09175550238</a></span>
                                     </p>
 
                                     <p>
