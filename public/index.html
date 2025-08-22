@@ -52,8 +52,8 @@ https://templatemo.com/tm-578-first-portfolio
 
                 <div class="d-flex align-items-center d-lg-none">
                     <i class="navbar-icon bi-telephone-plus me-3"></i>
-                    <a class="custom-btn btn" href="#section_5">
-                        120-240-9600
+                    <a class="custom-btn btn" href="#section_4">
+                        09175550238
                     </a>
                 </div>
 
@@ -78,8 +78,8 @@ https://templatemo.com/tm-578-first-portfolio
 
                     <div class="d-lg-flex align-items-center d-none ms-auto">
                         <i class="navbar-icon bi-telephone-plus me-3"></i>
-                        <a class="custom-btn btn" href="#section_5">
-                            +63-917-555-0238
+                        <a class="custom-btn btn" href="#section_4">
+                            09175550238
                         </a>
                     </div>
                 </div>
@@ -391,8 +391,8 @@ I have a strong passion for sports, which fosters discipline and perseverance.</
                                     <strong class="site-footer-title d-block mt-4 mb-3">Call</strong>
 
                                     <p class="mb-0">
-                                        <a href="tel: 120-240-9600">
-                                            +63-917-555-0238
+                                        <a href="tel: 09175550238">
+                                            09175550238
                                         </a>
                                     </p>
                                 </div>
