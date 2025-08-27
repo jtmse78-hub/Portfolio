@@ -1,4 +1,4 @@
-# Use an official PHP image with common extensions
+# Use an official PHP image
 FROM php:8.2-fpm
 
 # Set working directory
@@ -22,18 +22,18 @@ RUN apt-get update && apt-get install -y \
 # Install Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
-# Copy Laravel project files into container
+# Copy project files
 COPY . .
 
-# Set file permissions (basic, optional improvement later)
+# Install PHP dependencies
+RUN composer install --no-dev --optimize-autoloader
+
+# Set permissions
 RUN chown -R www-data:www-data /var/www \
     && chmod -R 755 /var/www
 
-# Generate Laravel app key (optional if APP_KEY is already set in env)
-# RUN php artisan key:generate
-
-# Expose port 80 to the outside world
+# Expose port 80
 EXPOSE 80
 
-# Start Laravel development server
+# Start Laravel server
 CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=80"]
