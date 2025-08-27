@@ -1,37 +1,34 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Intro</title>
-  <style>
-    body, html {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      background: black;
-    }
-    video {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-  </style>
+    <title>Intro Video</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background: black;
+        }
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
 </head>
 <body>
-  <video autoplay muted id="intro-video">
-    <source src="images/intro.mp4" type="video/mp4" />
-    
-  </video>
 
-  <script>
-    const video = document.getElementById('intro-video');
-    video.addEventListener('ended', () => {
-      window.location.href = '/Portfolio'; // Your main portfolio page
-    });
-  </script>
+    <video id="intro-video" autoplay muted>
+        <source src="{{ asset('images/intronew.mp4') }}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <script>
+        const video = document.getElementById('intro-video');
+        video.addEventListener('ended', function () {
+            window.location.href = "{{ url('/portfolio') }}";
+        });
+    </script>
+
 </body>
 </html>
-
-@extends('frontend.master')
