@@ -3,12 +3,17 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Controllers\TemplateController;
 
 class TemplateController extends Controller
 {
-    public function index()
+    public function welcome()
     {
-        return view('frontend.home');
+        return view('welcome'); // shows the video
     }
+
+    public function portfolio()
+{
+    return view('frontend.master');
+}
+
 }
