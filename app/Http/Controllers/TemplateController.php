@@ -13,7 +13,8 @@ class TemplateController extends Controller
 
     public function portfolio()
 {
-    return view('frontend.master');
+    return view('portfolio');
 }
+
 
 }
