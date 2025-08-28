@@ -35,5 +35,5 @@ RUN mkdir -p storage/framework/cache \
 RUN composer install --no-dev --optimize-autoloader
 
 # Expose port and start php-fpm
-EXPOSE 9000
-CMD ["php-fpm"]
+EXPOSE 8080
+CMD ["php", "-S", "0.0.0.0:8080", "-t", "public"]
