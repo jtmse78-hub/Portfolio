@@ -17,7 +17,8 @@ RUN apt-get update && apt-get install -y \
     libonig-dev \
     libxml2-dev \
     libzip-dev \
-    && docker-php-ext-install pdo_mysql mbstring zip exif pcntl
+    libpq-dev \
+    && docker-php-ext-install pdo_mysql pdo_pgsql mbstring zip exif pcntl
 
 # Install Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
@@ -37,5 +38,3 @@ EXPOSE 80
 
 # Start Laravel server
 CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=80"]
-
-
