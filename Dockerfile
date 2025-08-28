@@ -11,8 +11,9 @@ RUN apt-get update && apt-get install -y \
     curl \
     libonig-dev \
     libzip-dev \
+    libpq-dev \  # <-- Required for PostgreSQL
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
-    && docker-php-ext-install pdo_mysql mbstring zip gd bcmath
+    && docker-php-ext-install pdo_mysql pdo_pgsql mbstring zip gd bcmath
 
 # Install Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
@@ -34,6 +35,6 @@ RUN mkdir -p storage/framework/cache \
 # Install PHP dependencies
 RUN composer install --no-dev --optimize-autoloader
 
-# Expose port and start php-fpm
+# Expose port and start php server
 EXPOSE 8080
 CMD ["php", "-S", "0.0.0.0:8080", "-t", "public"]

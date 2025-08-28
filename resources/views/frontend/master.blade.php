@@ -7,7 +7,7 @@
             <meta name="description" content="">
             <meta name="author" content="TemplateMo">
 
-            <title>My Portfolio</title>
+            <title>Jaymar Portfolio</title>
 
             <!-- CSS FILES -->
             <link rel="preconnect" href="https://fonts.googleapis.com">

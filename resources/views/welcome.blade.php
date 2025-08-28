@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Intro Video</title>
+    <title>Jaymar Portfolio</title>
     <style>
         html, body {
             margin: 0;
