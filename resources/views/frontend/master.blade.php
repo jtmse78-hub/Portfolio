@@ -47,14 +47,9 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <a href="#section_1" class=navbar-brand mx-auto mx-lg-0">Jaymar</a>
+                    <a href="#section_1" class="navbar-brand click-scroll mx-auto mx-lg-0 ">Jaymar</a>
 
-                    <div class="d-flex align-items-center d-lg-none">
-                        <i class="navbar-icon bi-telephone-plus me-3"></i>
-                        <a class="custom-btn btn" href="#section_4">
-                            09175550238
-                        </a>
-                    </div>
+                    
 
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-lg-5">
