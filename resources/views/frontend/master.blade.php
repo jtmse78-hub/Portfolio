@@ -47,7 +47,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <a href="/" class="navbar-brand mx-auto mx-lg-0">Jaymar</a>
+                    <a href="/portfolio" class="navbar-brand mx-auto mx-lg-0">Jaymar</a>
 
                     <div class="d-flex align-items-center d-lg-none">
                         <i class="navbar-icon bi-telephone-plus me-3"></i>
