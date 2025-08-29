@@ -393,7 +393,7 @@
 
                                         <strong class="site-footer-title d-block mt-4 mb-3">Resume</strong>
 
-                                        <a href="images/jaymarcv.pdf" target="_blank">View My Resume (PDF)</a>
+                                        <a href="images/jaymar-cv.pdf" target="_blank">View My Resume (PDF)</a>
                                     </div>
                                 </div>
 
@@ -456,7 +456,7 @@
             </div>
         </footer>
 
-            <!-- JAVASCRIPT FILES -->
+            
             <script src="js/jquery.min.js"></script>
             <script src="js/bootstrap.min.js"></script>
             <script src="js/jquery.sticky.js"></script>
