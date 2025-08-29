@@ -388,7 +388,7 @@
 
                                         <strong class="site-footer-title d-block mt-4 mb-3">Resume</strong>
 
-                                        <a href="images/jaymar-cv.pdf" target="_blank">View My Resume (PDF)</a>
+                                        <a href="images/Jaymar-cv.pdf" target="_blank">View My Resume (PDF)</a>
                                     </div>
                                 </div>
 
